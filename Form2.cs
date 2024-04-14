@@ -28,7 +28,7 @@ namespace PWDB_6_AC
             {
                 timer.Stop();
 
-                label1.Text = "PRZEGRAŁEŚ :( czas się skończył";
+                label1.Text = "NIESTETY, PRZEGRAŁEŚ \n SKOŃCZYŁ CI SIĘ CZAS :((";
                 end_game = true;
                 foreach (PictureBox picture in nothing)
                 {
@@ -65,7 +65,7 @@ namespace PWDB_6_AC
             if (found_dydelfs == form1.dydelfy && !end_game)
             {
                 end_game = true;
-                label1.Text = "WYGRAŁEŚ!!!";
+                label1.Text = "UDAŁO SIĘ, ZNALAZŁEŚ DYDELFA!";
                 timer.Stop();
                 foreach (PictureBox picture in nothing)
                 {
@@ -84,7 +84,7 @@ namespace PWDB_6_AC
             if (!end_game)
             {
                 end_game = true;
-                label1.Text = "PRZEGRAŁEŚ :(";
+                label1.Text = "NIESTETY, NIE UDAŁO CI SIĘ ZNALEŹĆ DYDELFA :(";
                 timer.Stop();
                 foreach (PictureBox picture in nothing)
                 {
