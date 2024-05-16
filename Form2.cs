@@ -172,10 +172,9 @@ namespace PWDB_6_AC
             }
         }
 
-        string bin = "C:\\Users\\agata\\source\\repos\\Chruscik\\PWDB 6 AC\\smietnikk.jpg";
-        string dydelf = "C:\\Users\\agata\\source\\repos\\Chruscik\\PWDB 6 AC\\oposik.jpg";
-        string crocodile ="C:\\Users\\agata\\source\\repos\\Chruscik\\PWDB 6 AC\\krokodylll.jpg";
-        string empty = "C:\\Users\\agata\\source\\repos\\Chruscik\\PWDB 6 AC\\pusto.jpg";
-
+        string bin = "Images\\smietnikk.jpg";
+        string dydelf = "Images\\oposik.jpg";
+        string crocodile = "Images\\krokodylll.jpg";
+        string empty = "Images\\pusto.jpg";
     }
 }
